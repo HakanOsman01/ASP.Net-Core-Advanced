@@ -1,0 +1,15 @@
+﻿@model int
+@{
+    ViewData["Title"] = $"Numbers 1..{Model}";
+}
+<h2>@ViewData["Title"]</h2>
+@for (int i = 1; i <= Model; i++)
+{
+    <ul>
+        <li>@i</li>
+    </ul>
+}
+<form method="post" asp-controller="Number" asp-action="PrintNumbers">
+    <input type="number" name="count" />
+    <button type="submit" class="btn btn-danger">Submit</button>
+</form>

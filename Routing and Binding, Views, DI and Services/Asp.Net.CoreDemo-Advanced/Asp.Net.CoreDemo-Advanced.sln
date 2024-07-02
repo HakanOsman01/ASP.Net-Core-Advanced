@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asp.Net.CoreDemo-Advanced", "Asp.Net.CoreDemo-Advanced\Asp.Net.CoreDemo-Advanced.csproj", "{76D5B2E5-E287-448E-B288-10B0C5E34EA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{7B1B945C-8ABF-4BA6-9B66-182781D89C5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76D5B2E5-E287-448E-B288-10B0C5E34EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D5B2E5-E287-448E-B288-10B0C5E34EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D5B2E5-E287-448E-B288-10B0C5E34EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D5B2E5-E287-448E-B288-10B0C5E34EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1B945C-8ABF-4BA6-9B66-182781D89C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1B945C-8ABF-4BA6-9B66-182781D89C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1B945C-8ABF-4BA6-9B66-182781D89C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1B945C-8ABF-4BA6-9B66-182781D89C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A90AC3F-36F1-46A9-A96C-25A070867E82}
+	EndGlobalSection
+EndGlobal

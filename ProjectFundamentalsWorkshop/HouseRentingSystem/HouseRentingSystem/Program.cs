@@ -1,7 +1,3 @@
-using HouseRentingSystem.Infrastructer.Data;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-
 namespace HouseRentingSystem
 {
     public class Program
@@ -32,14 +28,17 @@ namespace HouseRentingSystem
             }
 
             app.UseHttpsRedirection();
+
             app.UseStaticFiles();
 
             app.UseRouting();
 
             app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.MapDefaultControllerRoute();
+
             app.MapRazorPages();
 
             app.Run();

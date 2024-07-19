@@ -15,6 +15,7 @@ namespace Microsoft.Extensions.DependencyInjection
             this IServiceCollection services)
         {
             services.AddScoped<IHouseService, HouseService>();
+            services.AddScoped<IAgentService, AgentService>();
             return services;
         }
         public static IServiceCollection AddApllicationDbContext(
